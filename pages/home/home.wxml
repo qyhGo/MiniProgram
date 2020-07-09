@@ -1,3 +1,4 @@
 <!--pages/home/home.wxml-->
-<text class="title">微信</text>
-<button size="mini">按钮</button>
+<!-- 小程序数据绑定及其点击事件 -->
+<view class="title">{{name}}</view>
+<button size="mini" bindtap="onClick">切换</button>

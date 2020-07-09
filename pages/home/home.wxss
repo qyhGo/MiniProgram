@@ -2,10 +2,8 @@
 Page {
   text-align: center;
 }
-.title {
-  font-size: 20px;
+view {
   color: aqua;
-  display: block;
 }
 button {
   background-color: black;
