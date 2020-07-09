@@ -1,6 +1,7 @@
 /* pages/home/home.wxss */
 Page {
   text-align: center;
+  background-color: burlywood;
 }
 view {
   color: aqua;
