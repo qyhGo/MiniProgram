@@ -1,0 +1,3 @@
+<!--pages/home/home.wxml-->
+<text class="title">微信</text>
+<button size="mini">按钮</button>
