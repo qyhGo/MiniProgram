@@ -1,3 +1,5 @@
 <!--pages/home/home.wxml-->
 <text class="title">微信</text>
 <button size="mini">按钮</button>
+
+<text>1.知识点</text>
