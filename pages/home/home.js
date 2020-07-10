@@ -13,5 +13,8 @@ Page({
         name: '微信'
       })
     }
+  },
+  getUI: function(option){
+    console.log(option)
   }
 })

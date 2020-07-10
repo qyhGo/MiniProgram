@@ -26,6 +26,7 @@
         "iconPath": "assets/tabbar/shopping.png",
         "selectedIconPath": "assets/tabbar/shopping.png"
       }
-  ]
-  }
+    ]
+  },
+  "sitemapLocation": "sitemap89.json"
 }

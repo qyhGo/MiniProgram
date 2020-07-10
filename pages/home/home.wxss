@@ -9,5 +9,8 @@ view {
 button {
   background-color: black;
   color: aliceblue;
-  margin: 20px auto;
+  margin: 20px 100px;
+}
+open-data{
+  display: block;
 }

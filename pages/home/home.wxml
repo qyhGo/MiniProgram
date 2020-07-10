@@ -2,3 +2,6 @@
 <!-- 小程序数据绑定及其点击事件 -->
 <view class="title">{{name}}</view>
 <button size="mini" bindtap="onClick">切换</button>
+<!-- 获取用户信息 -->
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="getUI">用户信息</button>
+<open-data type="userNickName"></open-data>
