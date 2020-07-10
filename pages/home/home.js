@@ -1,6 +1,7 @@
 Page({
   data: {
-    name: '微信'
+    name: '微信',
+    UserInfo: {}
   },
   onClick: function(){
     if(this.data.name==='微信'){
@@ -15,6 +16,10 @@ Page({
     }
   },
   getUI: function(option){
-    console.log(option)
+    console.log(option.detail['rawData'])
+    const detail = option.detail['rawData']
+    this.setData({
+      UserInfo: detail
+    })
   }
 })

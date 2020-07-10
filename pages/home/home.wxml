@@ -4,4 +4,8 @@
 <button size="mini" bindtap="onClick">切换</button>
 <!-- 获取用户信息 -->
 <button size="mini" open-type="getUserInfo" bindgetuserinfo="getUI">用户信息</button>
-<open-data type="userNickName"></open-data>
+<view>User:{{UserInfo}}\n</view>
+<!-- <open-data type="userNickName"></open-data> -->
+<scroll-view class="con" scroll-x>
+    <view wx:for='{{10}}' class="item">{{item}}</view>
+</scroll-view>
